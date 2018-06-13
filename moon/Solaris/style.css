@@ -1,0 +1,57 @@
+/* calendar */
+table.calendar		{ border-left:1px solid #999; }
+
+h1 {
+    font-size: 350%;
+    color: #fd0000;
+}
+
+td.calendar-day	{ 
+    min-height:80px; 
+    font-size:11px; 
+    position:relative; 
+} 
+
+* html div.calendar-day { height:80px; }
+
+td.calendar-day:hover	{ 
+    background:#fd0000;
+    transition: 1.5s;
+}
+
+td.calendar-day-np	{ 
+    background: #eee; 
+    min-height: 80px; 
+} 
+* html div.calendar-day-np { height:80px; }
+
+td.calendar-day-head { 
+    background: #ccc; 
+    font-weight: bold; 
+    text-align: center; 
+    width: 120px; 
+    padding: 5px; 
+    border-bottom: 1px solid #999;
+    border-top: 1px solid #999; 
+    border-right: 1px solid #999; 
+}
+
+div.day-number	{ 
+    background: #999; 
+    padding: 5px; 
+    color: #eaf400; 
+    font-weight: bold; 
+    float: right; 
+    margin: -5px -5px 0 0; 
+    width: 25px; 
+    text-align: center; 
+    font-size: 25px;
+}
+
+/* shared */
+td.calendar-day, td.calendar-day-np { 
+    width: 120px; 
+    padding: 5px; 
+    border-bottom: 1px solid #999; 
+    border-right: 1px solid #999; 
+}
